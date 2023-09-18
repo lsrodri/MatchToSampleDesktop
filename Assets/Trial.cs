@@ -536,7 +536,7 @@ public class Trial : MonoBehaviour
             //string filePath = Path.Combine(Application.dataPath, "Results", participantId + ".csv");
 
 
-            string filePath = Path.Combine(Application.persistentDataPath, "Results", participantId + ".csv");
+            string filePath = Path.Combine(Application.persistentDataPath, "DesktopResults", participantId + ".csv");
 
             //string resultsDirPath = Path.Combine(Application.persistentDataPath, "Results");
             //Directory.CreateDirectory(resultsDirPath); // Ensures that the directory exists

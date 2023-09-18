@@ -48,11 +48,12 @@ public class MagneticSphere : MonoBehaviour
 
 		if (constraint == 1)
         {
-			transform.position = new Vector3(0.409999996f, 0.800000012f, -0.810000002f);
+			//transform.position = new Vector3(0.409999996f, 0.800000012f, -0.6f);
+			transform.localPosition = new Vector3(0f, 0f, 0f);
 		}
 		else
         {
-			transform.position = new Vector3(0f, -10f, 0f);
+			transform.localPosition = new Vector3(0f, -10f, 0f);
         }
     }
 

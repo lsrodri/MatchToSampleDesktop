@@ -12,8 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Start.unity
     guid: 1e8cec3e42978da47a554aa2096bc3cd
   - enabled: 1
-    path: Assets/Scenes/TrialVR.unity
-    guid: b7b3008ad9ae26145946ff8cb59560f8
+    path: Assets/Scenes/TrialDesktop.unity
+    guid: 26728ae26dde1f54c8f0e4de895a6c85
   - enabled: 1
     path: Assets/Scenes/Results.unity
     guid: 0dad9439c10c175438cca16fe124ab89

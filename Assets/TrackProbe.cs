@@ -33,7 +33,7 @@ public class TrackProbe : MonoBehaviour
         //string filePath = Path.Combine(Application.dataPath, "Results", trial.participantId + "_probedata.csv");
         //Debug.Log(filePath);
 
-        string dataFolder = Path.Combine(Application.persistentDataPath, "Results");
+        string dataFolder = Path.Combine(Application.persistentDataPath, "DesktopResults");
         string fileName = $"{trial.participantId}_probedata.csv";
         filePath = Path.Combine(dataFolder, fileName);
 

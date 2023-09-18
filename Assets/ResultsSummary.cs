@@ -13,7 +13,7 @@ public class ResultsSummary : MonoBehaviour
     public void LoadCsv()
     {
         // File path
-        string filePath = Path.Combine(Application.persistentDataPath, "Results", PlayerPrefs.GetString("participantId")+".csv");
+        string filePath = Path.Combine(Application.persistentDataPath, "DesktopResults", PlayerPrefs.GetString("participantId")+".csv");
 
         if (!File.Exists(filePath))
         {

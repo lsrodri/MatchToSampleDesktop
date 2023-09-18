@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.matchtosample.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\D\\MatchToSampleExperiment\\MatchToSample\\Assets\\StreamingAssets\\SteamVR\\actions.json",
+      "action_manifest_path": "C:\\D\\MatchToSampleExperiment\\MatchToSampleDesktop\\Assets\\StreamingAssets\\SteamVR\\actions.json",
       "strings": {
         "en_us": {
           "name": "MatchToSample [Testing]"

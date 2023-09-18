@@ -28,6 +28,9 @@ public class Cutout : MonoBehaviour
     public Canvas promptCanvas;
     public Canvas pauseCanvas;
 
+    private MeshRenderer renderer;
+    public Vector3 size;
+
     private Renderer textureRenderer;
 
     void Start()
@@ -37,6 +40,9 @@ public class Cutout : MonoBehaviour
         sphereMeshRenderer = sphere.GetComponent<MeshRenderer>();
         cylinderMeshRenderer = cylinder.GetComponent<MeshRenderer>();
         collisionCylinderMeshRenderer = collisionCylinder.GetComponent<MeshRenderer>();
+        renderer = GetComponent<MeshRenderer>();
+        size = renderer.bounds.size;
+        //Debug.Log(size);
     }
 
     void Update()
